@@ -1,6 +1,6 @@
 <nav>
     <?php foreach ($routes as $path => $data): ?>
-        <a href="<?= htmlspecialchars($path) ?>"<?php if ($currentUrl === $path) echo ' style="font-weight:bold;"'; ?>>
+        <a href="<?= htmlspecialchars($path) ?>">
             <?= htmlspecialchars($data["title"]) ?>
         </a>
     <?php endforeach; ?>
