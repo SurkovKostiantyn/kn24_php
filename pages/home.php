@@ -12,16 +12,27 @@
     <h1>HOME</h1>
 
     <?php
+        // Опрацьовуємо нашу форму
         // Перевіряємо, що запит дійсно POST і параметр firstname переданий
-        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['firstname'])) {
-            $firstname = htmlspecialchars($_POST['firstname']); // захист від XSS
-            echo $firstname;
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $firstname = htmlspecialchars($_POST['firstname'] ?? "Дані не отримано"); // захист від XSS
+            $lastname = htmlspecialchars($_POST['lastname'] ?? "Дані не отримано"); // захист від XSS
+            // виведемо на сторінку
+            echo "<p>Привіт, $firstname $lastname</p>";
         }
     ?>
 
-    <form method="POST" action="index.php">
-        <input type="text" name="firstname">
-        <input type="submit">
+    <h2>Нижче у нас форма, яка буде передавати дані на сервер методом POST</h2>
+    <form method="POST" action="">
+        <label for="firstname">
+            <input type="text" name="firstname" id="firstname" placeholder="firstname">
+        </label>
+        <br>
+        <label for="lastname">
+            <input type="text" name="lastname" id="lastname" placeholder="lastname">
+        </label>
+        <br>
+        <input type="submit" value="Надіслати дані на сервер">
     </form>
 
 </body>
