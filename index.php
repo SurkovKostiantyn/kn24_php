@@ -1,44 +1,44 @@
 <?php
+
+    
+
+
     // масив з маршрутами, title сторінок, назва файлу
+    // Маршрути
     $routes = [
-        "/" => [
-            "title" => "ГОЛОВНА",
-             "file" => "home.php"
-            ],
-        "/page1" => [
-            "title" => "СТОРІНКА 1",
-             "file" => "page1.php"
-            ],
-        "/page2" => [
-            "title" => "СТОРІНКА 2",
-             "file" => "page2.php"
-            ],
-        "/page3" => [
-            "title" => "СТОРІНКА 3",
-            "file" => "page3.php"
-        ],
+        "/" => ["title" => "ГОЛОВНА",   "file" => "home.php"],
+        "/page1" => ["title" => "СТОРІНКА 1", "file" => "page1.php"],
+        "/page2" => ["title" => "СТОРІНКА 2", "file" => "page2.php"],
+        "/page3" => ["title" => "СТОРІНКА 3", "file" => "page3.php"],
     ];
 
-    // Отримуємо URL, введений в строку в браузері, наприклад http://localhost:8080/page1
-    $url = $_SERVER["REQUEST_URI"]; // в цю змінну запишеться "/page1" в даному випадку
+    // 1) Беремо лише PATH без параметрів (?a=b)
+    $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-    // Перевіряємо, чи існує у масиві $routes ключ, який співпадає з поточним URL ($url)
-    if (isset($routes[$url])) {
-        // Якщо такий ключ є, значить ми знаємо цю сторінку
-        
-        // Встановлюємо змінну $title заголовком сторінки, який зберігається у масиві $routes для цього URL
-        $title = $routes[$url]["title"];
-        
-        // Підключаємо відповідний файл сторінки.
-        // Шляхи файлів зберігаються у $routes[$url]["file"], а всі файли лежать у папці "pages"
-        include "pages/" . $routes[$url]["file"];
+    // 2) Якщо додаток у підпапці — відрізаємо базовий префікс
+    $base = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
+    if ($base && $base !== '/' && str_starts_with($path, $base)) {
+        $path = substr($path, strlen($base));
+        if ($path === '' || $path === false) $path = '/';
+    }
+
+    // 3) Нормалізація шляху
+    $path = rtrim($path, '/');
+    if ($path === '') $path = '/';
+
+    // 4) Вважаємо /index.php головною сторінкою
+    if ($path === '/index.php') {
+        $path = '/';
+    }
+
+    // Роутинг
+    if (isset($routes[$path])) {
+        $title = $routes[$path]['title'];
+        include "pages/" . $routes[$path]['file'];
     } else {
-        // Якщо ключа в масиві $routes для поточного URL нема,
-        // це означає, що сторінка не знайдена
-        
-        // Встановлюємо заголовок сторінки помилки 404
+        http_response_code(404);
         $title = "Сторінка не знайдена";
-        
-        // Підключаємо файл зі сторінкою помилки 404, який лежить у папці "pages"
         include "pages/404.php";
     }
+
+
