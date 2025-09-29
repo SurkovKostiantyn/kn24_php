@@ -23,6 +23,7 @@
     
             if ($firstname !== '' && $lastname !== '') {
                 echo '<p>Привіт, <strong>' 
+                   // . $firstname . "напряму виводити небезпечно, потрібно через htmlspecialchars"
                    . htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8') . ' '
                    . htmlspecialchars($lastname,  ENT_QUOTES, 'UTF-8') 
                    . '</strong></p>';
@@ -44,7 +45,6 @@
                 required
             />
         </label>
-        <br><br>
         <label for="lastname">
             <input 
                 type="text" 
@@ -55,7 +55,6 @@
                 required
             />
         </label>
-        <br><br>
         <input type="submit" value="Надіслати дані на сервер">
     </form>
 
