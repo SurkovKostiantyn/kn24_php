@@ -1,7 +1,7 @@
 <nav>
     <?php foreach ($routes as $path => $data): ?>
-        <a href="<?= htmlspecialchars($path) ?>">
-            <?= htmlspecialchars($data["title"]) ?>
+        <a href="<?= $path ?>">
+            <?= $data["title"] ?>
         </a>
     <?php endforeach; ?>
 </nav>
