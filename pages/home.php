@@ -3,35 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title?></title>
-    <link rel="icon" type="image/x-icon" href="skfbskdfbksdfb">
+    <title><?= htmlspecialchars($title ?? 'Сторінка', ENT_QUOTES, 'UTF-8') ?></title>
+    <link rel="stylesheet" href="./styles/style.css">
     <script src="./scripts/script.js"></script>
 </head>
 <body>
     <?php include_once 'pages/nav.php'?>
-    <h1>HOME</h1>
+    <h1>Головна сторінка (файл /pages/home.php)</h1>
 
     <?php
         // Опрацьовуємо нашу форму
-        // Перевіряємо, що запит дійсно POST і параметр firstname переданий
+        $firstname = '';
+        $lastname  = '';
+        // Перевіряємо, що запит дійсно POST
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $firstname = htmlspecialchars($_POST['firstname'] ?? "Дані не отримано"); // захист від XSS
-            $lastname = htmlspecialchars($_POST['lastname'] ?? "Дані не отримано"); // захист від XSS
-            // виведемо на сторінку
-            echo "<p>Привіт, $firstname $lastname</p>";
+            // Отримуємо значення змінних
+            $firstname = trim($_POST['firstname'] ?? '');
+            $lastname  = trim($_POST['lastname'] ?? '');
+    
+            if ($firstname !== '' && $lastname !== '') {
+                echo '<p>Привіт, <strong>' 
+                   . htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8') . ' '
+                   . htmlspecialchars($lastname,  ENT_QUOTES, 'UTF-8') 
+                   . '</strong></p>';
+            } else {
+                echo '<p>Будь ласка, заповніть обидва поля в формі.</p>';
+            }
         }
     ?>
 
     <h2>Нижче у нас форма, яка буде передавати дані на сервер методом POST</h2>
     <form method="POST" action="">
         <label for="firstname">
-            <input type="text" name="firstname" id="firstname" placeholder="firstname">
+            <input 
+                type="text" 
+                name="firstname" 
+                id="firstname" 
+                placeholder="firstname" 
+                value="<?= htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8') ?>"
+                required
+            />
         </label>
-        <br>
+        <br><br>
         <label for="lastname">
-            <input type="text" name="lastname" id="lastname" placeholder="lastname">
+            <input 
+                type="text" 
+                name="lastname" 
+                id="lastname" 
+                placeholder="lastname" 
+                value="<?= htmlspecialchars($firstname, ENT_QUOTES, 'UTF-8') ?>"
+                required
+            />
         </label>
-        <br>
+        <br><br>
         <input type="submit" value="Надіслати дані на сервер">
     </form>
 
