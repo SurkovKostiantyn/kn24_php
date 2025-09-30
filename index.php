@@ -7,9 +7,8 @@
     // -------------------------------
     $routes = [
         "/"       => ["title" => "ГОЛОВНА",     "file" => "home.php"],
-        "/page1"  => ["title" => "СТОРІНКА 1",  "file" => "page1.php"],
-        "/page2"  => ["title" => "СТОРІНКА 2",  "file" => "page2.php"],
-        "/page3"  => ["title" => "СТОРІНКА 3",  "file" => "page3.php"],
+        "/login"  => ["title" => "АВТОРИЗАЦІЯ",  "file" => "login.php"],
+        "/register"  => ["title" => "РЕЄСТРАЦІЯ",  "file" => "register.php"],
     ];
 
     // -------------------------------
