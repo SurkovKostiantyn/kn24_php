@@ -80,7 +80,7 @@ form {
   }
   
   /* Текстові поля */
-  input[type="text"] {
+  input[type="text"],input[type="password"] {
     width: 100%;
     padding: 10px 12px;
     border: 1px solid #d1d5db;
