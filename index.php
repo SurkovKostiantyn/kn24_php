@@ -122,6 +122,8 @@
         $file  = __DIR__ . DIRECTORY_SEPARATOR . 'pages' . DIRECTORY_SEPARATOR . $routes[$path]['file'];
 
         if (is_file($file)) {
+            $currentPath = $path;     // поточний шлях
+            $GLOBALS['currentPath'] = $path; // робимо доступним глобально
             include $file;
             exit;
         } else {
