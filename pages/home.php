@@ -26,7 +26,12 @@
 <body>
     <?php include_once 'pages/nav.php'?>
     <h1>Головна сторінка (файл /pages/home.php)</h1>
-
+    <p>
+        <?php
+            echo "Привіт, " .
+            $_SESSION['login'] ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ';
+        ?>
+    </p>
 
 
 </body>

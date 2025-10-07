@@ -36,8 +36,8 @@
         $login = trim($_POST['login'] ?? '');
         $password  = trim($_POST['lastname'] ?? '');
 
-        var_dump($login);
-        var_dump($password);
+        //var_dump($login);
+        //var_dump($password);
     }
 ?>
 
