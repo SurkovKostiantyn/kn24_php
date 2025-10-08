@@ -43,8 +43,7 @@
     <h1>Головна сторінка (файл /pages/home.php)</h1>
     <p>
         <?php
-            echo "Привіт, " .
-            $_SESSION['login'] ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ';
+            echo "Привіт, " . ($_SESSION['login'] ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ');
         ?>
     </p>
         <div id="div">
@@ -57,7 +56,7 @@
     <input type="text" id="filterbyAuthor" placeholder="Фільтр по автору">
     
     
-    <script src="./script.js"></script>
+    <script src="./scripts/scriptIterators.js"></script>
 
 </body>
 </html>
