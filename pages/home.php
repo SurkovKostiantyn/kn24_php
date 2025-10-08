@@ -22,28 +22,13 @@
     <!-- Тема і колір плитки для Windows -->
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
-
-    <style>
-        .article {
-          border-bottom: 1px solid #ccc;
-          margin-bottom: 1em;
-          padding-bottom: 1em;
-        }
-        .article h2 {
-          margin: 0;
-        }
-        .article i {
-          color: gray;
-          font-size: 0.9em;
-        }
-      </style>
 </head>
 <body>
     <?php include_once 'pages/nav.php'?>
     <h1>Головна сторінка (файл /pages/home.php)</h1>
     <p>
         <?php
-            echo "Привіт, " . ($_SESSION['login'] ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ');
+            echo "Привіт, " . ($_SESSION['login'] ?? 'НЕ АВТОРИЗОВАНИЙ КОРИСТУВАЧ');
         ?>
     </p>
 
