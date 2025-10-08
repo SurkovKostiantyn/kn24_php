@@ -197,3 +197,94 @@ input[type="submit"]:active {
     background: #2563eb;
   }
 }
+
+/* Кнопки */
+.btn_panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+/* Кнопки та інпути в панелі */
+.btn_panel button,
+.btn_panel input[type="text"] {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #111827;
+  box-sizing: border-box;
+  transition: border-color .2s, box-shadow .2s;
+  font-family: inherit;
+}
+
+/* Вузькі інпути */
+.btn_panel input[type="text"] {
+  flex: 1 1 200px;
+  min-width: 180px;
+}
+
+/* Кнопки */
+.btn_panel button {
+  border: none;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .2s, transform .02s;
+}
+
+.btn_panel button:hover {
+  background: #2563eb;
+}
+
+.btn_panel button:active {
+  transform: translateY(1px);
+}
+
+.btn_panel button:focus-visible,
+.btn_panel input[type="text"]:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,.2);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .btn_panel {
+    background: #1e293b;
+    border-color: #334155;
+  }
+
+  .btn_panel button {
+    background: #2563eb;
+    color: #fff;
+  }
+
+  .btn_panel button:hover {
+    background: #1d4ed8;
+  }
+
+  .btn_panel input[type="text"] {
+    background: #0b1220;
+    color: #e5e7eb;
+    border-color: #334155;
+  }
+
+  .btn_panel input[type="text"]::placeholder {
+    color: #64748b;
+  }
+
+  .btn_panel button:focus-visible,
+  .btn_panel input[type="text"]:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96,165,250,.2);
+  }
+}

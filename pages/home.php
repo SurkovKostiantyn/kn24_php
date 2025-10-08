@@ -50,11 +50,13 @@
         
     </div>
 
-    <button id="sortOriginal">Скинути</button>
-    <button id="sortByName">Сортувати по назві</button>
-    <input type="text" id="filterbyName" placeholder="Фільтр по назві">
-    <input type="text" id="filterbyAuthor" placeholder="Фільтр по автору">
-    
+    <div class="btn_panel">
+      <button id="sortOriginal">Скинути</button>
+      <button id="sortByName">Сортувати по назві</button>
+      <input type="text" id="filterbyName" placeholder="Фільтр по назві">
+      <input type="text" id="filterbyAuthor" placeholder="Фільтр по автору">
+    </div>
+  
     
     <script src="./scripts/scriptIterators.js"></script>
 
