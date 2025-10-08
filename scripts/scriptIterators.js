@@ -55,10 +55,11 @@ const showNews = (arr) => {
 
     // список заголовків усіх новин
     const titles = news.map(arr => arr.title);
-    console.log(titles);
 
     // Виведемо через reduce
     div.innerHTML += titles.reduce((text, title) => text += ('<br>'+ title));
+
+    div.innerHTML += '<hr>';
 
     for (const article of arr) {
         // деструктуризуємо коментарі
