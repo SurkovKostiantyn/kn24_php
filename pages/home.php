@@ -22,6 +22,21 @@
     <!-- Тема і колір плитки для Windows -->
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
+
+    <style>
+        .article {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 1em;
+          padding-bottom: 1em;
+        }
+        .article h2 {
+          margin: 0;
+        }
+        .article i {
+          color: gray;
+          font-size: 0.9em;
+        }
+      </style>
 </head>
 <body>
     <?php include_once 'pages/nav.php'?>
@@ -32,7 +47,17 @@
             $_SESSION['login'] ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ';
         ?>
     </p>
+        <div id="div">
+        
+    </div>
 
+    <button id="sortOriginal">Скинути</button>
+    <button id="sortByName">Сортувати по назві</button>
+    <input type="text" id="filterbyName" placeholder="Фільтр по назві">
+    <input type="text" id="filterbyAuthor" placeholder="Фільтр по автору">
+    
+    
+    <script src="./script.js"></script>
 
 </body>
 </html>
