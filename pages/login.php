@@ -33,7 +33,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Отримуємо значення змінних
         $login = trim($_POST['login'] ?? '');
-        $password  = trim($_POST['lastname'] ?? '');
+        $password  = trim($_POST['password'] ?? '');
     }
 ?>
 
