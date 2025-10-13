@@ -24,7 +24,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
-    <?php include_once 'pages/nav.php'?>
     <h1>СТОРІНКУ НЕ ЗНАЙДЕНО. Файл /pages/404.php</h1>    
     <a href="/">Повернутись на головну</a>
 </body>

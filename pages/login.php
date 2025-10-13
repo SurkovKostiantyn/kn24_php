@@ -24,7 +24,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
-<?php include_once 'pages/nav.php'?>
 
 <?php
     // Опрацьовуємо нашу форму
@@ -35,9 +34,6 @@
         // Отримуємо значення змінних
         $login = trim($_POST['login'] ?? '');
         $password  = trim($_POST['lastname'] ?? '');
-
-        //var_dump($login);
-        //var_dump($password);
     }
 ?>
 

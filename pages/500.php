@@ -24,7 +24,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
-    <?php include_once 'pages/nav.php'?>
     <h1>500 Internal Server Error</h1><p>Файл сторінки не знайдено.</p>
     <a href="/">Повернутись на головну</a>
 </body>

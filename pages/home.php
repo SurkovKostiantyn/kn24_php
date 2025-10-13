@@ -24,7 +24,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
-    <?php include_once 'pages/nav.php'?>
     <h1>Головна сторінка (файл /pages/home.php)</h1>
     <p>
         <?php
