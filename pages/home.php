@@ -31,6 +31,10 @@
         ?>
     </p>
 
+    <img src="./images/qr.png" alt="QR-код" class="qr-image">
+    <p><a href="https://kn24-php.onrender.com" target="_blank">https://kn24-php.onrender.com</a></p>
+  
+
 
 </body>
 </html>
