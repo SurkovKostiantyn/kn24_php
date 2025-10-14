@@ -31,10 +31,7 @@
         ?>
     </p>
 
-    <img src="./images/qr.png" alt="QR-код" class="qr-image">
-    <p><a href="https://kn24-php.onrender.com" target="_blank">https://kn24-php.onrender.com</a></p>
-  
-
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fkn24-php.onrender.com" alt="QR kn24-php">
 
 </body>
 </html>
