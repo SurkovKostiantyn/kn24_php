@@ -26,6 +26,10 @@
 <body>
 
 <?php
+    include 'nav.php'
+?>
+
+<?php
     // Опрацьовуємо нашу форму
     $login = '';
     $password  = '';
