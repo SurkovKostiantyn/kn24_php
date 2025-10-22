@@ -21,12 +21,21 @@ const getPicFromAPI = async (obj) => {
         obj.src = response.url;
     } catch (error) {
         console.error('Помилка при завантаженні зображення:', error);
-    }
+    } 
 };
 
 // функція що додає картинку
 const addPic = () => {
-    let img = document.createElement('img');
+
+    let img;
+
+    if(div.childElementCount === 0){
+        img = document.createElement('img');
+    }
+    else{
+        img = div.childNodes[0];
+    }
+
     div.appendChild(img);
     img.src = './images/1.jpg';
 

@@ -24,6 +24,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
+
+    <?php
+        include 'nav.php'
+    ?>
+
+
     <h1>Головна сторінка (файл /pages/home.php)</h1>
     <p>
         <?php
@@ -31,11 +37,17 @@
         ?>
     </p>
 
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https%3A%2F%2Fkn24-php.onrender.com" alt="QR kn24-php">
-
+    <p>
+        В файлі scripts/scriptAsync.js є код, що асинхронно додає картинку.
+    </p>
+    <button id="btn">Додати картинку.</button>
+    
+    <p>
+        Картинка буде в цьому блоці &#8595;
+    </p>
     <div id="div" style="list-style:none; display:flex; gap:10px; flex-wrap:wrap;">
+        
     </div>
-    <button id="btn">Додати картинку</button>
 
     <script src="./scripts/scriptAsync.js" defer></script>
 

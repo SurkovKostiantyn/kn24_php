@@ -74,6 +74,7 @@
         "/"          => ["title" => "ГОЛОВНА",     "file" => "home.php"],
         "/login"     => ["title" => "АВТОРИЗАЦІЯ", "file" => "login.php"],
         "/game"     => ["title" => "GAME", "file" => "game.php"],
+        "/fabric"     => ["title" => "GAME", "file" => "fabric.php"],
     ];
 
     // ------------------------------------------------------------
