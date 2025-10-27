@@ -1,15 +1,12 @@
 <?php
+
+    // Файл в якому створюємо таблицю User
+    require_once 'dbCreateTable.php';
+
+
     // ------------------------------------------------------------
     // index.php — простий роутер з авторизацією та редиректами
     // ------------------------------------------------------------
-
-    // ------------------------------------------------------------
-    // 1) Демонстраційні облікові дані користувача
-    // ------------------------------------------------------------
-    $auth = [
-        "login"    => "user",
-        "password" => "123456",
-    ];
 
     session_start(); // запуск сесії
 
@@ -48,21 +45,40 @@
             $login = trim($_POST["login"]);
             $password = trim($_POST["password"]);
 
-            // Якщо введено правильні дані
-            if ($login === $auth['login'] && $password === $auth['password']) {
+            try {
+                // Підключення до бази даних SQLite
+                $myPDO = new PDO('sqlite:mydatabase.db');
+                $myPDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
+                // Підготовлений запит
+                $sql = "SELECT id FROM User WHERE login = :login AND password = :password";
+                $stmt = $myPDO->prepare($sql);
 
-                // Записуємо логін у сесію
-                $_SESSION['login'] = $login;
+                // Виконання з параметрами
+                $stmt->execute([
+                    ':login' => $login,
+                    ':password' => $password
+                ]);
 
-                // Додаємо cookie на 10000 секунд
-                setcookie('login', $login, time() + 10000, '/');
+                // Отримання результату
+                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+                if($user){
+                    // Записуємо логін у сесію
+                    $_SESSION['login'] = $login;
 
-                // Після успішного логіну — редирект на головну
-                header("Location: /");
-                exit;
+                    // Додаємо cookie на 10000 секунд
+                    setcookie('login', $login, time() + 10000, '/');
 
-            } else {
-                echo 'User not found';
+                    // Після успішного логіну — редирект на головну
+                    header("Location: /");
+                    exit;
+                }
+                else
+                    echo "користувач не існує";
+       
+            } catch (PDOException $e) {
+                echo "Помилка: " . $e->getMessage();
             }
         }
     }

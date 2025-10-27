@@ -29,18 +29,6 @@
     include 'nav.php'
 ?>
 
-<?php
-    // Опрацьовуємо нашу форму
-    $login = '';
-    $password  = '';
-    // Перевіряємо, що запит дійсно POST
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        // Отримуємо значення змінних
-        $login = trim($_POST['login'] ?? '');
-        $password  = trim($_POST['password'] ?? '');
-    }
-?>
-
     <h2>Нижче у нас форма, яка буде передавати дані на сервер методом POST</h2>
     <form method="POST" action="">
         <label for="login"></label>
