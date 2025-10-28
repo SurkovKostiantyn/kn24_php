@@ -5,20 +5,22 @@ namespace Classes;
 use Latte\Engine;
 
 class Viewer {
-
-    public static function show(string $page, array $param = []): void {
+    public static function show(string $page, array $param = []): void
+    {
         $latte = new Engine();
-
-        // Папка для кеша Latte
         $latte->setTempDirectory(__DIR__ . '/../../temp');
 
-        // Абсолютный путь к шаблону
-        $templatePath = __DIR__ . '/../templates/' . $page . '.latte';
+        $baseDir = __DIR__ . '/../templates';
+        $layoutPath = "$baseDir/@layout.latte";
+        $pagePath   = "$baseDir/$page.latte";
 
-        if (!file_exists($templatePath)) {
-            throw new \RuntimeException("Template not found: $templatePath");
+        if (!file_exists($pagePath)) {
+            throw new \RuntimeException("Template not found: $pagePath");
         }
 
-        $latte->render($templatePath, $param);
+        // щоб Latte знав про layout — передаємо шлях до сторінки як "content"
+        $param['contentTemplate'] = $pagePath;
+
+        $latte->render($layoutPath, $param);
     }
 }

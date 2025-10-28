@@ -1,6 +1,7 @@
 <?php
     require __DIR__ .'/../vendor/autoload.php';
     
+    
     use Pecee\SimpleRouter\SimpleRouter;
     use Pecee\Http\Request;
     use Pecee\SimpleRouter\Exceptions\NotFoundHttpException;

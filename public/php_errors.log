@@ -1,0 +1,36 @@
+[28-Oct-2025 17:33:57 UTC] PHP Fatal error:  Uncaught RuntimeException: Template not found: D:\kn24_php\kn24_php\src\templates/pages/.latte in D:\kn24_php\kn24_php\src\Classes\Viewer.php:18
+Stack trace:
+#0 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(12): Classes\Viewer::show()
+#1 [internal function]: Classes\HomePageController->show()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#6 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#7 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#8 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18
+[28-Oct-2025 17:35:07 UTC] PHP Fatal error:  Uncaught RuntimeException: Template not found: D:\kn24_php\kn24_php\src\Classes/../templates/pages/.latte in D:\kn24_php\kn24_php\src\Classes\Viewer.php:18
+Stack trace:
+#0 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(12): Classes\Viewer::show()
+#1 [internal function]: Classes\HomePageController->show()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#6 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#7 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#8 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18
+[28-Oct-2025 17:36:31 UTC] PHP Fatal error:  Uncaught RuntimeException: Template not found: D:\kn24_php\kn24_php\src\Classes/../templates/pages/home.latte in D:\kn24_php\kn24_php\src\Classes\Viewer.php:18
+Stack trace:
+#0 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(12): Classes\Viewer::show()
+#1 [internal function]: Classes\HomePageController->show()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#6 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#7 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#8 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18

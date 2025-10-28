@@ -5,15 +5,13 @@ namespace Classes;
 use Classes\Viewer;
 
 class HomePageController{
-
-    public function __construct(){
-
-    }
-
     public function show(){
 
-        $param = ['title' => 'Головна'];
+        $user = $_SESSION['login'] ?? null;
 
-        Viewer::show('home',$param);
+        Viewer::show('home', [
+            'title' => 'Головна сторінка',
+            'user' => $user
+        ]);
     }
 }
