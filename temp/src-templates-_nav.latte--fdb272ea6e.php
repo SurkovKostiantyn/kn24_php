@@ -12,12 +12,27 @@ final class Template_fdb272ea6e extends Latte\Runtime\Template
 
 	public function main(array $ʟ_args): void
 	{
+		extract($ʟ_args);
+		unset($ʟ_args);
+
 		echo '<nav class="nav">
-    <a href="/" class="nav_link">Головна</a>
-    <a href="/game" class="nav_link">Game</a>
-    <a href="/fabric" class="nav_link">Fabric.JS</a>
-    <a href="?logout=1" class="nav_link">Logout</a>
-    <a href="/login" class="nav_link">Login</a>
-</nav>';
+    <div class="nav-links">
+        <a href="/" class="nav_link">Головна</a>
+    </div>
+    
+    <div class="nav-links">
+';
+		if ($user) /* line 7 */ {
+			echo '            <a href="/logout?token=';
+			echo LR\Filters::escapeHtmlAttr($csrf_token) /* line 8 */;
+			echo '" class="nav_link" 
+               onclick="return confirm(\'Ви впевнені, що хочете вийти?\')">Logout</a>
+';
+		} else /* line 10 */ {
+			echo '            <a href="/login" class="nav_link">Login</a>
+';
+		}
+		echo '    </div>
+</nav>  ';
 	}
 }

@@ -4,10 +4,10 @@
 
 use Latte\Runtime as LR;
 
-/** source: D:\kn24_php\kn24_php\src\Classes/../templates/@layout.latte */
+/** source: D:\kn24_php\kn24_php\src\Classes\..\templates\@layout.latte */
 final class Template_e574bfc217 extends Latte\Runtime\Template
 {
-	public const Source = 'D:\\kn24_php\\kn24_php\\src\\Classes/../templates/@layout.latte';
+	public const Source = 'D:\\kn24_php\\kn24_php\\src\\Classes\\..\\templates\\@layout.latte';
 
 
 	public function main(array $ʟ_args): void

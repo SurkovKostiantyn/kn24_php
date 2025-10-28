@@ -34,3 +34,205 @@ Stack trace:
 #7 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
 #8 {main}
   thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18
+[28-Oct-2025 17:37:34 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:37:34 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:37:34 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/login/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 17:37:36 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:37:36 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:37:36 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/login/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 17:42:12 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:12 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:12 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/login/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 17:42:20 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:20 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:20 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/game/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 17:42:32 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:32 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:32 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/game/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 17:42:35 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\public/../src/templates/404.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:35 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\public/../src/templates/404.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\public\index.php on line 18
+[28-Oct-2025 17:42:35 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/login/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(23): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 18:29:33 UTC] PHP Fatal error:  Uncaught RuntimeException: Template not found: D:\kn24_php\kn24_php\src\Classes/../templates/pages/error500.latte in D:\kn24_php\kn24_php\src\Classes\Viewer.php:18
+Stack trace:
+#0 D:\kn24_php\kn24_php\src\Classes\ErrorController.php(23): Classes\Viewer::show()
+#1 D:\kn24_php\kn24_php\public\index.php(20): Classes\ErrorController::show500()
+#2 [internal function]: {closure:D:\kn24_php\kn24_php\public\index.php:16}()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Handlers\CallbackExceptionHandler.php(37): call_user_func()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(549): Pecee\SimpleRouter\Handlers\CallbackExceptionHandler->handleError()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(447): Pecee\SimpleRouter\Router->handleException()
+#6 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#7 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#8 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#9 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18
+[28-Oct-2025 18:30:02 UTC] PHP Fatal error:  Uncaught RuntimeException: Template not found: D:\kn24_php\kn24_php\src\Classes/../templates/pages/error500.latte in D:\kn24_php\kn24_php\src\Classes\Viewer.php:18
+Stack trace:
+#0 D:\kn24_php\kn24_php\src\Classes\ErrorController.php(23): Classes\Viewer::show()
+#1 D:\kn24_php\kn24_php\public\index.php(20): Classes\ErrorController::show500()
+#2 [internal function]: {closure:D:\kn24_php\kn24_php\public\index.php:16}()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Handlers\CallbackExceptionHandler.php(37): call_user_func()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(549): Pecee\SimpleRouter\Handlers\CallbackExceptionHandler->handleError()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(447): Pecee\SimpleRouter\Router->handleException()
+#6 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#7 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#8 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#9 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\Viewer.php on line 18
+[28-Oct-2025 18:58:54 UTC] PHP Fatal error:  Uncaught Latte\CompileException: Unexpected '{' (in '...\templates\_nav.latte' on line 10 at column 5) in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TokenStream.php:124
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php(79): Latte\Compiler\TokenStream->throwUnexpectedException()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(159): Latte\Compiler\TemplateParser->parse()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(123): Latte\Engine->parse()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(56): Latte\Engine->compile()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#5 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#6 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Runtime\Template.php(190): Latte\Engine->createTemplate()
+#7 D:\kn24_php\kn24_php\temp\templates-@layout.latte--e574bfc217.php(46): Latte\Runtime\Template->createTemplate()
+#8 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Runtime\Template.php(110): Template_e574bfc217->main()
+#9 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(76): Latte\Runtime\Template->render()
+#10 D:\kn24_php\kn24_php\src\Classes\Viewer.php(22): Latte\Engine->render()
+#11 D:\kn24_php\kn24_php\src\Classes\ErrorController.php(23): Classes\Viewer::show()
+#12 D:\kn24_php\kn24_php\public\index.php(24): Classes\ErrorController::show500()
+#13 [internal function]: {closure:D:\kn24_php\kn24_php\public\index.php:20}()
+#14 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Handlers\CallbackExceptionHandler.php(37): call_user_func()
+#15 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(549): Pecee\SimpleRouter\Handlers\CallbackExceptionHandler->handleError()
+#16 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(447): Pecee\SimpleRouter\Router->handleException()
+#17 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#18 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#19 D:\kn24_php\kn24_php\public\index.php(30): Pecee\SimpleRouter\SimpleRouter::start()
+#20 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TokenStream.php on line 124
+[28-Oct-2025 19:21:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Classes\AuthController::login(), 0 passed and exactly 2 expected in D:\kn24_php\kn24_php\src\Classes\AuthController.php:16
+Stack trace:
+#0 [internal function]: Classes\AuthController->login()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#6 D:\kn24_php\kn24_php\public\index.php(31): Pecee\SimpleRouter\SimpleRouter::start()
+#7 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 16
+[28-Oct-2025 19:21:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Classes\AuthController::login(), 0 passed and exactly 2 expected in D:\kn24_php\kn24_php\src\Classes\AuthController.php:16
+Stack trace:
+#0 [internal function]: Classes\AuthController->login()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#6 D:\kn24_php\kn24_php\public\index.php(31): Pecee\SimpleRouter\SimpleRouter::start()
+#7 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 16
+[28-Oct-2025 19:21:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Classes\AuthController::login(), 0 passed and exactly 2 expected in D:\kn24_php\kn24_php\src\Classes\AuthController.php:16
+Stack trace:
+#0 [internal function]: Classes\AuthController->login()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#4 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#5 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#6 D:\kn24_php\kn24_php\public\index.php(31): Pecee\SimpleRouter\SimpleRouter::start()
+#7 {main}
+  thrown in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 16
+[28-Oct-2025 19:56:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:56:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:56:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:56:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:56:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:54 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 19:57:56 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:05:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:05:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:05:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:05:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:05:40 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:06:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:06:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:24 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:08:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:09:00 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:09:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:10:23 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:10:55 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:12:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:12:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:12:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:20:31 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:20:42 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:20:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:21:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:23:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:23:28 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:23:29 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:03 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:24:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:25:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:25:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:26:45 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:26:47 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:26:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:26:53 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:27:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:27:57 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:28:09 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:28:11 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:28:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:31:44 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:31:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:31:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:31:52 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:31:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 9) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 20:32:01 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26
+[28-Oct-2025 21:00:32 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from D:\kn24_php\kn24_php\src\Classes\LoginController.php on line 10) in D:\kn24_php\kn24_php\src\Classes\AuthController.php on line 26

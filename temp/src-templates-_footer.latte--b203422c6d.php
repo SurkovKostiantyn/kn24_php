@@ -13,9 +13,21 @@ final class Template_b203422c6d extends Latte\Runtime\Template
 	public function main(array $ʟ_args): void
 	{
 		echo '<footer>
-    <p>&copy; ';
-		echo LR\Filters::escapeHtmlText(date('Y')) /* line 2 */;
-		echo ' Мій сайт</p>
+    <div class="footer-content">
+        <div class="footer-section">
+            <p>Сучасний веб-додаток з красивим дизайном</p>
+        </div>
+        
+        <div class="footer-section">
+            <p>&copy; ';
+		echo LR\Filters::escapeHtmlText(date('Y')) /* line 8 */;
+		echo ' Всі права захищені</p>
+        </div>
+        
+        <div class="footer-section">
+            <p>Створено з ❤️ використовуючи PHP та Latte</p>
+        </div>
+    </div>
 </footer>';
 	}
 }

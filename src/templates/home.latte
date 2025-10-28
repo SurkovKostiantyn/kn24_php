@@ -1,4 +1,4 @@
-    <h1>Головна сторінка (файл /pages/home.php)</h1>
+    <h1>Головна сторінка (файл src/templates/home.latte)</h1>
     <p>
         Привіт, {$user ?? 'Гість'}
     </p>
@@ -7,13 +7,13 @@
         В файлі scripts/scriptAsync.js є код, що асинхронно додає картинку.
     </p>
 
-    <button id="btn">Додати картинку.</button>
+    <button id="btn" class="btn-success">Додати картинку</button>
     
     <p>
         Картинка буде в цьому блоці &#8595;
     </p>
 
-    <div id="div" style="list-style:none; display:flex; gap:10px; flex-wrap:wrap;">
+    <div id="div" class="card" style="list-style:none; display:flex; gap:1rem; flex-wrap:wrap; min-height:200px;">
         
     </div>
 

@@ -1,7 +1,14 @@
 <nav class="nav">
-    <a href="/" class="nav_link">Головна</a>
-    <a href="/game" class="nav_link">Game</a>
-    <a href="/fabric" class="nav_link">Fabric.JS</a>
-    <a href="?logout=1" class="nav_link">Logout</a>
-    <a href="/login" class="nav_link">Login</a>
-</nav>
+    <div class="nav-links">
+        <a href="/" class="nav_link">Головна</a>
+    </div>
+    
+    <div class="nav-links">
+        {if $user}
+            <a href="/logout?token={$csrf_token}" class="nav_link" 
+               onclick="return confirm('Ви впевнені, що хочете вийти?')">Logout</a>
+        {else}
+            <a href="/login" class="nav_link">Login</a>
+        {/if}
+    </div>
+</nav>  

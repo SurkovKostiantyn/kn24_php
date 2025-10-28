@@ -6,12 +6,10 @@ use Classes\Viewer;
 
 class HomePageController{
     public function show(){
-
-        $user = $_SESSION['login'] ?? null;
+        session_start();
 
         Viewer::show('home', [
             'title' => 'Головна сторінка',
-            'user' => $user
         ]);
     }
 }

@@ -4,10 +4,10 @@
 
 use Latte\Runtime as LR;
 
-/** source: D:\kn24_php\kn24_php\src\Classes/../templates/home.latte */
+/** source: D:\kn24_php\kn24_php\src\Classes\..\templates\home.latte */
 final class Template_075aa62995 extends Latte\Runtime\Template
 {
-	public const Source = 'D:\\kn24_php\\kn24_php\\src\\Classes/../templates/home.latte';
+	public const Source = 'D:\\kn24_php\\kn24_php\\src\\Classes\\..\\templates\\home.latte';
 
 
 	public function main(array $ʟ_args): void
@@ -15,7 +15,7 @@ final class Template_075aa62995 extends Latte\Runtime\Template
 		extract($ʟ_args);
 		unset($ʟ_args);
 
-		echo '    <h1>Головна сторінка (файл /pages/home.php)</h1>
+		echo '    <h1>Головна сторінка (файл src/templates/home.latte)</h1>
     <p>
         Привіт, ';
 		echo LR\Filters::escapeHtmlText($user ?? 'Гість') /* line 3 */;
@@ -26,13 +26,13 @@ final class Template_075aa62995 extends Latte\Runtime\Template
         В файлі scripts/scriptAsync.js є код, що асинхронно додає картинку.
     </p>
 
-    <button id="btn">Додати картинку.</button>
+    <button id="btn" class="btn-success">Додати картинку</button>
     
     <p>
         Картинка буде в цьому блоці &#8595;
     </p>
 
-    <div id="div" style="list-style:none; display:flex; gap:10px; flex-wrap:wrap;">
+    <div id="div" class="card" style="list-style:none; display:flex; gap:1rem; flex-wrap:wrap; min-height:200px;">
         
     </div>
 
