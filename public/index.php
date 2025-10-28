@@ -3,6 +3,7 @@
     
     use Pecee\SimpleRouter\SimpleRouter;
     use Pecee\Http\Request;
+    use Pecee\SimpleRouter\Exceptions\NotFoundHttpException;
 
     use Classes\HomePageController;
 
@@ -10,13 +11,12 @@
     SimpleRouter::get('/', [HomePageController::class, 'show']);
 
     // --- обробка помилок ---
-    SimpleRouter::error(function(Request $request, \Exception $exception) {
-        if($exception instanceof \Pecee\SimpleRouter\Exceptions\NotFoundHttpException) {
+    SimpleRouter::error(function(Request $r, \Exception $e) {
+        if($e instanceof NotFoundHttpException) {
             http_response_code(404);
             include __DIR__ . '/../src/templates/404.php';
         }
     });
 
- 
-    // Запуск маршрутизатора
+     // Запуск маршрутизатора
     SimpleRouter::start();

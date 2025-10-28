@@ -1,1 +1,20 @@
-Blablabla {$title}
+    <h1>Головна сторінка (файл /pages/home.php)</h1>
+    <p>
+        Привіт, {$user ?? 'КОРИСТУВАЧ НЕ АВТОРИЗОВАНИЙ'}
+    </p>
+
+    <p>
+        В файлі scripts/scriptAsync.js є код, що асинхронно додає картинку.
+    </p>
+
+    <button id="btn">Додати картинку.</button>
+    
+    <p>
+        Картинка буде в цьому блоці &#8595;
+    </p>
+    
+    <div id="div" style="list-style:none; display:flex; gap:10px; flex-wrap:wrap;">
+        
+    </div>
+
+    <script src="./scripts/scriptAsync.js" defer></script>
