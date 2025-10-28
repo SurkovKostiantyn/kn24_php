@@ -2,6 +2,8 @@
 
 namespace Classes;
 
+use Classes\Viewer;
+
 class HomePageController{
 
     public function __construct(){
@@ -9,6 +11,9 @@ class HomePageController{
     }
 
     public function show(){
-        include './templates/home.php';
+
+        $param = ['title' => 'Головна'];
+
+        Viewer::show('home',$param);
     }
 }

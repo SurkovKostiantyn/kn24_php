@@ -7,5 +7,8 @@
             "Classes\\": "src/Classes/"
         }
     },
-    "require": {}
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "latte/latte": "^3.0"
+    }
 }

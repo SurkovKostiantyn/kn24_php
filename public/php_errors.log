@@ -1,0 +1,205 @@
+[28-Oct-2025 11:57:55 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:57:57 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:57:57 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:57:58 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/game/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 11:57:59 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:57:59 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:58:00 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:58:00 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:58:00 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(26): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 11:59:04 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\ClassNotFoundHttpException: Class "HomePageController" does not exist in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php:19
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(105): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClass()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#2 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#3 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#4 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#5 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php on line 19
+[28-Oct-2025 12:00:09 UTC] PHP Warning:  include(./templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:09 UTC] PHP Warning:  include(): Failed opening './templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:09 UTC] PHP Fatal error:  Uncaught Pecee\SimpleRouter\Exceptions\NotFoundHttpException: Route not found: "/favicon.ico/" in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php:467
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#1 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#2 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#3 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php on line 467
+[28-Oct-2025 12:00:11 UTC] PHP Warning:  include(./templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:11 UTC] PHP Warning:  include(): Failed opening './templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:13 UTC] PHP Warning:  include(./templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:13 UTC] PHP Warning:  include(): Failed opening './templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:49 UTC] PHP Warning:  include(src/templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:00:49 UTC] PHP Warning:  include(): Failed opening 'src/templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:02 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\src\Classes/src/templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:02 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\src\Classes/src/templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:10 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\src\Classes/src/templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:10 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\src\Classes/src/templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:10 UTC] PHP Warning:  include(D:\kn24_php\kn24_php\src\Classes/src/templates/home.php): Failed to open stream: No such file or directory in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:01:10 UTC] PHP Warning:  include(): Failed opening 'D:\kn24_php\kn24_php\src\Classes/src/templates/home.php' for inclusion (include_path='.;C:\php\pear') in D:\kn24_php\kn24_php\src\Classes\HomePageController.php on line 13
+[28-Oct-2025 12:14:47 UTC] PHP Fatal error:  Uncaught Latte\TemplateNotFoundException: Missing template file 'home.latte'. in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php:41
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(120): Latte\Loaders\FileLoader->getContent()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(34): Latte\Cache->generateSignature()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(74): Latte\Engine->createTemplate()
+#5 D:\kn24_php\kn24_php\src\Classes\Viewer.php(16): Latte\Engine->render()
+#6 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(17): Classes\Viewer::show()
+#7 [internal function]: Classes\HomePageController->show()
+#8 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#9 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#10 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#11 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#12 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#13 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#14 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php on line 41
+[28-Oct-2025 12:16:34 UTC] PHP Fatal error:  Uncaught Latte\TemplateNotFoundException: Missing template file 'home.latte'. in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php:41
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(120): Latte\Loaders\FileLoader->getContent()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(34): Latte\Cache->generateSignature()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(74): Latte\Engine->createTemplate()
+#5 D:\kn24_php\kn24_php\src\Classes\Viewer.php(16): Latte\Engine->render()
+#6 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(17): Classes\Viewer::show()
+#7 [internal function]: Classes\HomePageController->show()
+#8 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#9 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#10 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#11 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#12 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#13 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#14 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php on line 41
+[28-Oct-2025 12:17:19 UTC] PHP Fatal error:  Uncaught Latte\TemplateNotFoundException: Missing template file 'home.latte'. in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php:41
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(120): Latte\Loaders\FileLoader->getContent()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(34): Latte\Cache->generateSignature()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(74): Latte\Engine->createTemplate()
+#5 D:\kn24_php\kn24_php\src\Classes\Viewer.php(16): Latte\Engine->render()
+#6 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(17): Classes\Viewer::show()
+#7 [internal function]: Classes\HomePageController->show()
+#8 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#9 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#10 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#11 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#12 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#13 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#14 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php on line 41
+[28-Oct-2025 12:17:34 UTC] PHP Fatal error:  Uncaught Latte\TemplateNotFoundException: Missing template file 'home.latte'. in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php:41
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(120): Latte\Loaders\FileLoader->getContent()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(34): Latte\Cache->generateSignature()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(74): Latte\Engine->createTemplate()
+#5 D:\kn24_php\kn24_php\src\Classes\Viewer.php(16): Latte\Engine->render()
+#6 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(17): Classes\Viewer::show()
+#7 [internal function]: Classes\HomePageController->show()
+#8 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#9 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#10 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#11 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#12 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#13 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#14 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Loaders\FileLoader.php on line 41
+[28-Oct-2025 12:18:58 UTC] PHP Fatal error:  Uncaught Latte\CompileException: Unexpected tag {title} (in '.../templates/home.latte' on line 3 at column 11) in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php:323
+Stack trace:
+#0 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php(179): Latte\Compiler\TemplateParser->getTagParser()
+#1 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php(115): Latte\Compiler\TemplateParser->parseLatteStatement()
+#2 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParserHtml.php(58): Latte\Compiler\TemplateParser->inTextResolve()
+#3 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php(93): Latte\Compiler\TemplateParserHtml->inTextResolve()
+#4 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php(74): Latte\Compiler\TemplateParser->parseFragment()
+#5 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(159): Latte\Compiler\TemplateParser->parse()
+#6 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(123): Latte\Engine->parse()
+#7 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Cache.php(56): Latte\Engine->compile()
+#8 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(216): Latte\Cache->loadOrCreate()
+#9 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(99): Latte\Engine->loadTemplate()
+#10 D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Engine.php(74): Latte\Engine->createTemplate()
+#11 D:\kn24_php\kn24_php\src\Classes\Viewer.php(22): Latte\Engine->render()
+#12 D:\kn24_php\kn24_php\src\Classes\HomePageController.php(17): Classes\Viewer::show()
+#13 [internal function]: Classes\HomePageController->show()
+#14 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\ClassLoader\ClassLoader.php(34): call_user_func_array()
+#15 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Route\Route.php(117): Pecee\SimpleRouter\ClassLoader\ClassLoader->loadClassMethod()
+#16 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(427): Pecee\SimpleRouter\Route\Route->renderRoute()
+#17 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\Router.php(353): Pecee\SimpleRouter\Router->routeRequest()
+#18 D:\kn24_php\kn24_php\vendor\pecee\simple-router\src\Pecee\SimpleRouter\SimpleRouter.php(69): Pecee\SimpleRouter\Router->start()
+#19 D:\kn24_php\kn24_php\public\index.php(22): Pecee\SimpleRouter\SimpleRouter::start()
+#20 {main}
+  thrown in D:\kn24_php\kn24_php\vendor\latte\latte\src\Latte\Compiler\TemplateParser.php on line 323
