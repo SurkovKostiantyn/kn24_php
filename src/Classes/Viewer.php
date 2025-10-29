@@ -21,6 +21,8 @@ class Viewer {
         }
 
         $param['contentTemplate'] = $pagePath;
+        
+        // Додаємо до параметрів user (якщо є в сесії) та CSRF токен для захисту форм
         $param['user'] = $_SESSION['login'] ?? null;
         $param['csrf_token'] = AuthController::generateCsrfToken();
         
