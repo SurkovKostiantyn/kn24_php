@@ -1,6 +1,9 @@
 <?php
     require __DIR__ .'/../vendor/autoload.php';
-        
+
+    session_start();
+          
+    // маршрутизатор
     use Pecee\SimpleRouter\SimpleRouter;
     use Pecee\Http\Request;
     use Pecee\SimpleRouter\Exceptions\NotFoundHttpException;
@@ -9,11 +12,16 @@
     use Classes\ErrorController;
     use Classes\LoginController;
     use Classes\AuthController;
+    use Classes\GameController;
 
+    // прописуємо маршрути
     SimpleRouter::get('/', [HomePageController::class, 'show']);
     SimpleRouter::get('/login', [LoginController::class, 'show']);
     SimpleRouter::get('/logout', [AuthController::class, 'logout']);
     SimpleRouter::post('/login', [AuthController::class, 'login']);
+    
+    // робимо нову сторінку
+    SimpleRouter::get('/game', [GameController::class, 'show']);
 
     // --- обробка помилок ---
 

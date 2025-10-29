@@ -1,0 +1,9 @@
+<h1>Це у нас сторінка гри (файл src/templates/game.latte)</h1>
+
+<ul n:if=$gamesList>
+{foreach $gamesList as $game}
+    <li>
+        {$game['id']} {$game['title']} {$game['description']} 
+    </li>
+{/foreach}
+</ul>

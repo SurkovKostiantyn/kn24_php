@@ -6,8 +6,6 @@ class AuthController
 {
     public static function logout(): void
     {
-        session_start();
-        
         // Перевірка CSRF токена
         $token = $_GET['token'] ?? '';
         if (!hash_equals($_SESSION['csrf_token'] ?? '', $token)) {
@@ -23,7 +21,6 @@ class AuthController
     
     public static function generateCsrfToken(): string
     {
-        session_start();
         if (!isset($_SESSION['csrf_token'])) {
             $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
         }
@@ -32,8 +29,6 @@ class AuthController
 
     public static function login(): bool
     {
-        session_start();
-
         // TODO: замість масиву можна перевіряти БД
         $users = [
             'admin' => '123',
@@ -59,7 +54,6 @@ class AuthController
 
     public static function isLogged(): bool
     {
-        session_start();
         return !empty($_SESSION['login']);
     }
 }

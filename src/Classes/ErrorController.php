@@ -10,7 +10,6 @@ class ErrorController
         http_response_code(404);
         Viewer::show('error404', [
             'title' => 'Сторінку не знайдено',
-            'user' => $_SESSION['login'] ?? null,
             'errorCode' => 404,
             'message' => 'На жаль, запитану сторінку не знайдено.'
         ]);
