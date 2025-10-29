@@ -29,19 +29,23 @@ class AuthController
 
     public static function login(): bool
     {
-        // TODO: замість масиву можна перевіряти БД
-        $users = [
-            'admin' => '123',
-            'user'  => 'pass'
-        ];
-
         // Перевірка логіну
         $login = $_POST['login'] ?? '';
         $password = $_POST['password'] ?? '';
 
+        // Отримуємо дані
+        $user = Database::select("
+            SELECT login, password 
+            FROM users
+            WHERE 
+            login LIKE '$login'
+            AND
+            password LIKE '$password'
+        ");
+
         // Перевірка чи існує користувач і чи пароль правильний
-        if (isset($users[$login]) && $users[$login] === $password) {
-            $_SESSION['login'] = $login;
+        if ($user) {
+            $_SESSION['login'] = $user['login'];
             header('Location: /');
             exit;
         }
@@ -49,6 +53,21 @@ class AuthController
         // У випадку невірного логіну/пароля
         $_SESSION['login_error'] = 'Невірний логін або пароль';
         header('Location: /login');
+        exit;
+    }
+
+    public function reg(){
+        // Перевірка логіну
+        $login = $_POST['login'] ?? '';
+        $password = $_POST['password'] ?? '';
+
+        $insert_sql = "
+            INSERT INTO users (login, password) 
+            VALUES ('$login', '$password')
+        ";
+        
+        Database::query($insert_sql);
+        header('Location: /');
         exit;
     }
 

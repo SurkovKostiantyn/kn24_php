@@ -13,15 +13,22 @@
     use Classes\LoginController;
     use Classes\AuthController;
     use Classes\GameController;
+    use Classes\RegController;
 
     // прописуємо маршрути
     SimpleRouter::get('/', [HomePageController::class, 'show']);
+    
     SimpleRouter::get('/login', [LoginController::class, 'show']);
+
+    SimpleRouter::get('/reg', [RegController::class, 'show']);
+    
     SimpleRouter::get('/logout', [AuthController::class, 'logout']);
     SimpleRouter::post('/login', [AuthController::class, 'login']);
+    SimpleRouter::post('/reg', [AuthController::class, 'reg']);
     
     // робимо нову сторінку
     SimpleRouter::get('/game', [GameController::class, 'show']);
+    SimpleRouter::post('/game', [GameController::class, 'addToDatabase']);
 
     // --- обробка помилок ---
 

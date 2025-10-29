@@ -79,6 +79,18 @@ class Database {
         }
         
         // Тут можна додати створення інших таблиць (наприклад, 'users')
+        $create_table_sql = "
+        CREATE TABLE IF NOT EXISTS users (
+            id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            login VARCHAR(30) NOT NULL,
+            password VARCHAR(30) NOT NULL
+        );
+        ";
+
+        // Виконуємо запит на створення таблиці
+        if ($conn->query($create_table_sql) === FALSE) {
+            die("Помилка при створенні таблиці 'users': " . $conn->error);
+        }
     }
 
     // --- (Решта методів: query, select, escape, getData, sendData залишаються без змін) ---
