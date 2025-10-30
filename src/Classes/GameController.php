@@ -10,15 +10,14 @@ class GameController{
         // 1. Підключення та створення БД
         $conn = Database::connect();
         if ($conn) {
-            echo "Підключення успішно встановлено і БД готова.<br>";
+            // 2. Отримання даних (використовуємо метод select)
+            $gamesList = Database::select("SELECT id, title, description FROM games");
+            // 3. Передаємо дані в шаблон
+            Viewer::show('game', [
+                'title' => 'Cторінка ігр',
+                'gamesList' => $gamesList
+            ]);
         }
-        // 2. Отримання даних (використовуємо метод select)
-        $gamesList = Database::select("SELECT id, title, description FROM games");
-        // 3. Передаємо дані в шаблон
-        Viewer::show('game', [
-            'title' => 'Cторінка ігр',
-            'gamesList' => $gamesList
-        ]);
     }
 
     public function addToDatabase(){
