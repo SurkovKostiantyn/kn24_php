@@ -33,24 +33,26 @@ class AuthController
         $login = $_POST['login'] ?? '';
         $password = $_POST['password'] ?? '';
 
-        // Отримуємо дані
-        $user = Database::select("
+        // Отримуємо дані (Database::select повертає масив масивів)
+        $users = Database::select("
             SELECT login, password 
             FROM users
             WHERE 
-            login LIKE '$login'
+            login = '" . Database::escape($login) . "'
             AND
-            password LIKE '$password'
+            password = '" . Database::escape($password) . "'
         ");
 
         // Перевірка чи існує користувач і чи пароль правильний
-        if ($user) {
-            $_SESSION['login'] = $user['login'];
+        if (!empty($users) && isset($users[0])) {
+            session_start();
+            $_SESSION['login'] = $users[0]['login'];
             header('Location: /');
             exit;
         }
 
         // У випадку невірного логіну/пароля
+        session_start();
         $_SESSION['login_error'] = 'Невірний логін або пароль';
         header('Location: /login');
         exit;
@@ -63,7 +65,7 @@ class AuthController
 
         $insert_sql = "
             INSERT INTO users (login, password) 
-            VALUES ('$login', '$password')
+            VALUES ('" . Database::escape($login) . "', '" . Database::escape($password) . "')
         ";
         
         Database::query($insert_sql);
